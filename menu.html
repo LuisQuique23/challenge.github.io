@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Encriptador de Texto </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <h1 class="titulo">Encriptador de Texto </h1>
+
+  <main class="main">
+    <section class="form box">
+      <form id="formulario">
+        <label for="input-texto">Ingrese el texto aqui </label>
+        <textarea class="text-input" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui" rows="5" cols="50"></textarea>
+        <div class="button-container">
+          <input class="boton" type="submit" value="Encriptar " id="boton-encriptar">
+          <input class="boton1" type="submit" value="Desencriptar " id="boton-desencriptar">
+          
+        </div>
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <label for="mensaje-texto">Mensaje encriptado:</h2></label>
+      <textarea class="text-input" name="mensaje-texto" id="mensaje-texto"rows="5" cols="50"></textarea>              
+      <input class="boton" type="submit" value="Copiar texto" id="boton-copy">
+    </section>
+  </main>
+
+  <section  class = "right"> 
+    <label class="logo" >
+        <p>Encriptador con los siguientes parametros </p>
+        <ul class="lista.momenclatura">
+            <li class="items">La letra "e" es convertida para "enter"</li> 
+            <li class="items"> La letra "i" es convertida para "imes" </li> 
+            <li class="items">La letra "a" es convertida para "ai"</li> 
+            <li class="items">La letra "o" es convertida para "ober"</li> 
+            <li class="items">La letra "u" es convertida para "ufat"</li> 
+            </ul>
+        <img src="imagenes/logo.png" width="200" height="150">
+ 
+  </section>
+
+  <footer class="footer">
+    <p>Programa realizado para alura </span> por <span>Luis Enrique Plaza Ocaña </span> | &copy; 2022</p>
+  </footer>
+  <p class="redes">Contacto en las siguientes redes sociales</p>
+    <a  href="https://www.linkedin.com/in/luis-enrique-plaza-oca%C3%B1a-3a0b67258/" target="_blank" rel="noopener">
+        <p class="linkedin">
+    <img alt="siguenos en linkedin" height="40" width="40" src="https://webmasfacil.info/wp-content/uploads/2021/02/linkedin.png" title="siguenos en linkedin" /></a>
+    <a href="https://discord.gg/FxG8NZFy" target="_blank" rel="noopener">      
+    <img alt="siguenos en discord" height="40" width="40" src="https://webmasfacil.info/wp-content/uploads/2021/02/Discord.png" title="siguenos en discord" /></a>
+
+        <script src="comandos.js"></script>
+</body>
+</html>
