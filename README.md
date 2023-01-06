@@ -1,11 +1,13 @@
 # challengeAlura-
-Elementos principales del challenge
-*Título de su sitio web
-*Campo para el texto que va a ser encriptado/desencriptado
-*Un botón para encriptar
-*Un botón para desencriptar
-*Área para mostrar el texto encriptado/desencriptado.
+_desafio de alura para relizar un encriptador _
 
-Extra!
-*Un rodapie con los datos de la persona que desarrolló el sitio web!
-*Relizar un boton que realize la accion copiar 
+## elementos proncipales del challenge 🚀
+_*Título de su sitio web_
+_*Campo para el texto que va a ser encriptado/desencriptado_
+_*Un botón para encriptar_
+_*Un botón para desencriptar_
+_*Área para mostrar el texto encriptado/desencriptado._
+
+### requerimientos extra 📋
+_*Un rodapie con los datos de la persona que desarrolló el sitio web!_
+_*Relizar un boton que realize la accion copiar._ 
