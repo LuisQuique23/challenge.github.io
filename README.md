@@ -1,9 +1,9 @@
 # challengeAlura-
-_desafio de alura para relizar un encriptador _
+* desafio de alura para relizar un encriptador
 
 ## elementos proncipales del challenge 🚀
-_*Título de su sitio web_
-_*Campo para el texto que va a ser encriptado/desencriptado_
+* Título de su sitio web 
+* Campo para el texto que va a ser encriptado/desencriptado_
 _*Un botón para encriptar_
 _*Un botón para desencriptar_
 _*Área para mostrar el texto encriptado/desencriptado._
